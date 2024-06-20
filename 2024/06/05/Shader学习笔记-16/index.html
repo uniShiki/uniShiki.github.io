@@ -24,7 +24,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/mfmf.webp">
 <meta property="article:published_time" content="2024-06-05T06:13:33.000Z">
-<meta property="article:modified_time" content="2024-06-19T06:43:05.268Z">
+<meta property="article:modified_time" content="2024-06-19T06:54:53.769Z">
 <meta property="article:author" content="uni_shiki">
 <meta property="article:tag" content="unity">
 <meta property="article:tag" content="shader">
@@ -180,7 +180,7 @@
         <div class="kratos-post-content">
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
                 <div class="icon"><i class="fa fa-warning"></i></div>
-                <div class="text"><p>本文最后编辑于 <time datetime="1718779385268"></time> 前，其中的内容可能需要更新。</p></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1718780093769"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
             
                 <div class="kratos-post-inner-toc">
@@ -307,10 +307,8 @@
 <li>尽管表面着色器极大的减少了我们的工作量，但它带来的另一个问题是，我们经常不知道为什么会得到这样的渲染结果，如果我们不管这些的话，我们可以很轻松地用它来实现一些不错的渲染效果。但是我们往往也会有这样的疑问，为什么场景里没有灯光，但物体不是全黑的；又或者把光源的颜色调成黑色，物体还是会有一些渲染颜色。这些问题都源于表面着色器对我们隐藏了一些实现的细节。如果想要更加得心应手地使用表面着色器，我们需要学习它的工作流水线，并了解Unity是如何为一个表面着色器生成对应的顶点&#x2F;片元着色器的</li>
 <li>表面着色器的本质就是包含了很多Pass的顶点&#x2F;片元着色器</li>
 <li>这些Pass有些是为了针对不同的渲染路径，例如，默认情况下Unity会为前向渲染路径生成LightMode为ForwardBase和ForwardAdd的Pass，为Unity5之前的延迟渲染路径生成LightMode为PrePassBase和PrePassFinal的Pass，为Unity5之后的延迟渲染路径生成LightMode为Deferred的Pass</li>
-<li>可以在Unity中点击Show generated code按钮来查看背后生成的代码，通过查看这些代码，我们就可以了解Unity是如何根据表面着色器来生成各个Pass<ul>
+<li>可以在Unity中点击Show generated code按钮来查看背后生成的代码，通过查看这些代码，我们就可以了解Unity是如何根据表面着色器来生成各个Pass</li>
 <li>首先会直接将表面着色器之间的cg代码部分复制过来，这些代码包含了Input结构体和表面函数、光照函数等变量和函数的定义</li>
-</ul>
-</li>
 </ul>
 <p><img src="/images/Learn_Shaders/228.png"></p>
 <ul>
@@ -519,7 +517,7 @@
                 文章
             </span>
             <span class="count">
-                102
+                103
             </span>
         </a>
         <a class="meta-item" href="/categories/">
@@ -558,7 +556,7 @@
                 
   <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
     <h4 class="widget-title"><i class="fa fa-folder"></i>分类目录</h4>
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">学习记录</a><span class="category-list-count">87</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/">开发记录</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3/">教程文档</a><span class="category-list-count">3</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">学习记录</a><span class="category-list-count">88</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/">开发记录</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3/">教程文档</a><span class="category-list-count">3</span></li></ul>
   </aside>
 
 
@@ -578,6 +576,12 @@
   <div class="tab-content">
       <ul class="list-group">
         
+        
+          
+          
+            <a class="list-group-item" href="/2024/06/20/Shader%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-17/"><i class="fa  fa-book"></i> Unity Shader入门精要 第十八章——第二十章</a>
+            
+          
         
           
           
@@ -604,11 +608,7 @@
           
         
           
-          
-            <a class="list-group-item" href="/2024/05/24/MyUIProject-03/"><i class="fa  fa-book"></i> UI动效 03</a>
             
-          
-        
           
             
           
